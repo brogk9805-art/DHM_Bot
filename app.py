@@ -12,9 +12,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 app = Flask(__name__)
 
 # 📝 បំពេញព័ត៌មានផ្ទាល់ខ្លួនរបស់បងនៅត្រង់នេះ
-TELEGRAM_BOT_TOKEN = "ដាក់_TOKEN_BOT_TELEGRAM_YOURS"
-TELEGRAM_CHAT_ID = "ដាក់_CHAT_ID_GROUP_YOURS"
-TRADINGVIEW_CHART_URL = "https://www.tradingview.com/chart/xxxxxxx/" # ដាក់ Link Chart Layout បង
+TELEGRAM_BOT_TOKEN = "8680169736:AAH9TGN2qCNcqallycjsM3mEV50I1qkoCxig"
+TELEGRAM_CHAT_ID = "-1003916358139"
+TRADINGVIEW_CHART_URL = "https://www.tradingview.com/x/ziQHr1wN/" # ដាក់ Link Chart Layout បង
 
 def send_photo_to_telegram(photo_url, caption_text):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
